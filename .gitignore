@@ -1,0 +1,23 @@
+# PlatformIO / Arduino build output
+.pio/
+build/
+dist/
+out/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Local IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Never commit local runtime credentials/config copied from the SD card
+config.json
+gptputer/config.json
